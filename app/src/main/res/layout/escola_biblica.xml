@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Presença"
+        android:textColor="#000000"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:id="@+id/lstvMembrosEB">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bíblias: "
+            android:textColor="#000000"
+            android:layout_gravity="bottom"/>
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:hint="Bíblias"
+            android:id="@+id/edtQtdBibliasEB"
+            android:inputType="number"
+            android:layout_gravity="bottom"
+            android:imeOptions="actionNext"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estudo Diário: "
+            android:textColor="#000000"
+            android:layout_gravity="bottom"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Estudo Diário"
+            android:id="@+id/edtQtdEstudoDiarioEB"
+            android:inputType="number"
+            android:imeOptions="actionDone"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALVAR"
+            android:id="@+id/btnSalvChamadaEB"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCELAR"
+            android:id="@+id/btnCancChamadaEB"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

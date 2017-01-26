@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login:"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtCadLogin"
+        android:id="@+id/edtCadLogin"
+        android:layout_marginTop="10dp"
+        android:imeOptions="actionNext"
+        android:maxLength="11"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtCadNome"
+        android:id="@+id/edtCadNomeUsuario"
+        android:layout_marginTop="10dp"
+        android:inputType="text"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtCadSenha"
+        android:id="@+id/edtCadSenha"
+        android:layout_marginTop="10dp"
+        android:maxLength="8"
+        android:inputType="textPassword"
+        android:imeOptions="actionNext"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtCadEmail"
+        android:id="@+id/edtCadEmail"
+        android:layout_marginTop="10dp"
+        android:inputType="textPostalAddress"
+        android:imeOptions="actionNext"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validação:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edtSenhaAdmin"
+        android:id="@+id/edtSenhaAdmin"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"/>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="SALVAR"
+            android:layout_weight="1"
+            android:id="@+id/btnSalvarCad"
+            android:layout_gravity="bottom"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="CANCELAR"
+            android:layout_weight="1"
+            android:id="@+id/btnCancelarCad"
+            android:layout_gravity="bottom"/>
+
+    </LinearLayout>
+
+</LinearLayout>

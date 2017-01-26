@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cadastroMembro"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Cadastro de membro" />
+         <item
+            android:id="@+id/chamadaEB"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Chamada Escola Biblíca" />
+        <item
+            android:id="@+id/chamadaCJ"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Chamada Classe Jovens" />
+        <item
+            android:id="@+id/chamadaCC"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Chamada classe Crianças" />
+        <item
+            android:id="@+id/configuracoes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configurações" />
+    </group>
+
+    <item android:title="Ferramentas">
+        <menu>
+            <item
+                android:id="@+id/importar"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Importar" />
+            <item
+                android:id="@+id/exportar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Exportar" />
+            <item
+                android:id="@+id/sair"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Sair" />
+
+        </menu>
+    </item>
+
+</menu>

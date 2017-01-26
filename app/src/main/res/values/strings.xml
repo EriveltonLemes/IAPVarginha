@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IAP Varginha</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="acaoSobre">Sobre o App</string>
+    <string name="acaoAjuda">Ajuda</string>
+    <string name="acaoImportar">Importar</string>
+    <string name="acaoSair">Sair</string>
+    <string name="txtNaoOficial">Não Oficial</string>
+    <string name="edtNomeUsuario">Escolha o nome de usuário</string>
+    <string name="edtCadLogin">Seu login será seu numero de celular</string>
+    <string name="edtCadNome">Digite seu nome</string>
+    <string name="edtCadSenha">Escolha uma senha</string>
+    <string name="edtCadEmail">Digite seu email</string>
+    <string name="btnLimpar">LIMPAR</string>
+    <string name="btnEntrar">ENTRAR</string>
+    <string name="hintSenha">SENHA</string>
+    <string name="hintLogin">LOGIN</string>
+    <string name="nomeMembro">Digite o nome do membro</string>
+    <string name="sobrenomeMmebro">Digite o sobrenome do membro</string>
+    <string name="edtSenhaAdmin">Senha do Administrador</string>
+</resources>

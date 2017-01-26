@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.apptools.iapvarginha.Home">
+    <item
+        android:id="@+id/acaoSobre"
+        android:orderInCategory="100"
+        android:title="@string/acaoSobre"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/acaoAjuda"
+        android:orderInCategory="100"
+        android:title="@string/acaoAjuda"
+        app:showAsAction="never" />
+
+</menu>
